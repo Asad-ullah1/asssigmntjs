@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="app.js"></script>
+</head>
+<body>
+    
+
+    <script>
+     //question 1 and 2  
+
+      var num1 =3;
+      var num2 = 5;
+sum =num1 + num2;
+document.write( "sum of numbers is : "+ sum);
+sub =num1 - num2;
+document.write( "<br> subtration of numbers is : "+ sub);
+multi =num1 * num2;
+document.write( " <br> subtmultiplicationration of numbers is : "+ multi);
+modulos =num1 % num2;
+document.write( " <br> modulos of numbers is : "+ modulos);
+//question 4
+var ticket = 600;
+var quantity = 5;
+total_cost= ticket * quantity;
+document.write("<br> Total cost to buy 5 tickets to a movies is " +total_cost +"PKR<br>")
+
+//question 5
+var  t=4;
+var  i=0;
+while(i<=10)
+{
+document.write(t+  "  X  "  +i+  "  =  "  +i*t+   "<br>");
+i++;
+}
+
+//question 6
+/*function cToF(celsius) 
+{
+  var cTemp = celsius;
+  var cToFahr = cTemp * 9 / 5 + 32;
+  var message = cTemp+'\xB0C is ' + cToFahr + ' \xB0F.';
+    console.log(message);
+}
+
+function fToC(fahrenheit) 
+{
+  var fTemp = fahrenheit;
+  var fToCel = (fTemp - 32) * 5 / 9;
+  var message = fTemp+'\xB0F is ' + fToCel + '\xB0C.';
+    console.log(message);
+} 
+cToF(60); 
+fToC(45);
+*/
+
+//question 7
+var item1_price = 650;
+var item2_price = 100;
+quantity1 =3;
+quantity2 =7;
+charges =100;
+document.write("<br><h1>Shopping cart</h1>")
+document.write("<br>price if item  1 is : " + item1_price)
+document.write("<br>Quantity of item 1 is : " + quantity1)
+document.write("<br>price if item  2 is : " + item2_price)
+document.write("<br>Quantity of item 2 is : " + quantity2)
+document.write("<br>shipping charges : " + charges)
+cost_itm1 =item1_price *3;
+cost_itm2 =item2_price *7;
+total = cost_itm1 + cost_itm2 + charges;
+document.write("<br>Total Cost ofyour order is " + total)
+
+//question 8
+var total_marks =980;
+var marks_obtained =804;
+percentage = marks_obtained / total_marks * 100;
+document.write("<br>Percentage:" + percentage +"%")
+
+//question 9
+
+var us_dollar= 1;
+var pkr = 155;
+var sra1 = 28;
+total_usdollar =10 *pkr;
+totaL_sra = 25 * sra1;
+total_pkr =total_usdollar+totaL_sra;
+document.write("<br>Total Currancy in pkr :" +total_pkr)
+
+//ques)tion 
+/*var num4=5,num5 =10,num6=2;
+sum = num4 *num5 /num6;
+document.write("<br>"+sum);*/
+
+// question 
+/*
+currentYear =2022;
+birthYear = 2000;
+ageCalc = currentYear - birthYear;
+document.write("<br> Current year is :"+currentYear);
+document.write("<br> Birth year is :"+birthYear);
+document.write("<br> Yourage is : "+ageCalc);
+*/
+
+//question
+var snak ="chocklate chips";
+var age = 22;
+var maxi_age =68;
+var perDay =3;
+totalSnake = age * perDay;
+document.write("<br>Favorite Snake :" + snak)
+document.write("<br>Current Age :" + age)
+document.write("<br> Estimated maximum age :" + maxi_age)
+document.write("<br>Amaount of snake per day  : :" + perDay)
+document.write("<br> you will need "+ totalSnake +" \n"+ snak +" \nto last you until the ripe old age of   " + maxi_age);
+    </script>
+</body>
+</html>
